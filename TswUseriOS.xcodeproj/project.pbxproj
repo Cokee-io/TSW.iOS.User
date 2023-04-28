@@ -16,6 +16,10 @@
 		FE1D92E3298E14FD009EF316 /* TswUseriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D92E2298E14FD009EF316 /* TswUseriOSTests.swift */; };
 		FE1D92ED298E14FD009EF316 /* TswUseriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D92EC298E14FD009EF316 /* TswUseriOSUITests.swift */; };
 		FE1D92EF298E14FD009EF316 /* TswUseriOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D92EE298E14FD009EF316 /* TswUseriOSUITestsLaunchTests.swift */; };
+		FE1D92FF298E23AF009EF316 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE1D92FE298E23AF009EF316 /* GoogleService-Info.plist */; };
+		FE1D9302298E27A4009EF316 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FE1D9301298E27A4009EF316 /* FirebaseAnalytics */; };
+		FE1D9304298E27A4009EF316 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FE1D9303298E27A4009EF316 /* FirebaseMessaging */; };
+		FE1D9308298E2C51009EF316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D9307298E2C51009EF316 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		FE1D92E8298E14FD009EF316 /* TswUseriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TswUseriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1D92EC298E14FD009EF316 /* TswUseriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TswUseriOSUITests.swift; sourceTree = "<group>"; };
 		FE1D92EE298E14FD009EF316 /* TswUseriOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TswUseriOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE1D92FE298E23AF009EF316 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE1D9305298E2B79009EF316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FE1D9306298E2B9B009EF316 /* TswUseriOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TswUseriOS.entitlements; sourceTree = "<group>"; };
+		FE1D9307298E2C51009EF316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1D9304298E27A4009EF316 /* FirebaseMessaging in Frameworks */,
+				FE1D9302298E27A4009EF316 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +108,16 @@
 		FE1D92CB298E14FC009EF316 /* TswUseriOS */ = {
 			isa = PBXGroup;
 			children = (
+				FE1D9306298E2B9B009EF316 /* TswUseriOS.entitlements */,
+				FE1D9305298E2B79009EF316 /* Info.plist */,
+				FE1D92FE298E23AF009EF316 /* GoogleService-Info.plist */,
 				FE1D92CC298E14FC009EF316 /* TswUseriOSApp.swift */,
 				FE1D92CE298E14FC009EF316 /* ContentView.swift */,
 				FE1D92D0298E14FD009EF316 /* Assets.xcassets */,
 				FE1D92D5298E14FD009EF316 /* Persistence.swift */,
 				FE1D92D7298E14FD009EF316 /* TswUseriOS.xcdatamodeld */,
 				FE1D92D2298E14FD009EF316 /* Preview Content */,
+				FE1D9307298E2C51009EF316 /* AppDelegate.swift */,
 			);
 			path = TswUseriOS;
 			sourceTree = "<group>";
@@ -149,6 +163,10 @@
 			dependencies = (
 			);
 			name = TswUseriOS;
+			packageProductDependencies = (
+				FE1D9301298E27A4009EF316 /* FirebaseAnalytics */,
+				FE1D9303298E27A4009EF316 /* FirebaseMessaging */,
+			);
 			productName = TswUseriOS;
 			productReference = FE1D92C9298E14FC009EF316 /* TswUseriOS.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +239,9 @@
 				Base,
 			);
 			mainGroup = FE1D92C0298E14FC009EF316;
+			packageReferences = (
+				FE1D9300298E27A4009EF316 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FE1D92CA298E14FC009EF316 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE1D92D4298E14FD009EF316 /* Preview Assets.xcassets in Resources */,
+				FE1D92FF298E23AF009EF316 /* GoogleService-Info.plist in Resources */,
 				FE1D92D1298E14FD009EF316 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +288,7 @@
 				FE1D92D6298E14FD009EF316 /* Persistence.swift in Sources */,
 				FE1D92CF298E14FC009EF316 /* ContentView.swift in Sources */,
 				FE1D92CD298E14FC009EF316 /* TswUseriOSApp.swift in Sources */,
+				FE1D9308298E2C51009EF316 /* AppDelegate.swift in Sources */,
 				FE1D92D9298E14FD009EF316 /* TswUseriOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -422,27 +445,35 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TswUseriOS/TswUseriOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TswUseriOS/Preview Content\"";
 				DEVELOPMENT_TEAM = P7Z3Z9WK3X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TswUseriOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "더스윙 플레이";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.cokee.TswUseriOS;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cokee.TswUser.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,27 +482,35 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TswUseriOS/TswUseriOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TswUseriOS/Preview Content\"";
 				DEVELOPMENT_TEAM = P7Z3Z9WK3X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TswUseriOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "더스윙 플레이";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.cokee.TswUseriOS;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cokee.TswUser.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -591,6 +630,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE1D9300298E27A4009EF316 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE1D9301298E27A4009EF316 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1D9300298E27A4009EF316 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FE1D9303298E27A4009EF316 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1D9300298E27A4009EF316 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FE1D92D7298E14FD009EF316 /* TswUseriOS.xcdatamodeld */ = {
