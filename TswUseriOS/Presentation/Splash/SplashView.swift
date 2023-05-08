@@ -11,7 +11,18 @@ struct SplashView: View {
     @EnvironmentObject private var launchStateService: LaunchStateService
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            Image("splash_logo")
+        }
+        .onAppear {
+            DispatchQueue.main.async {
+                
+                launchStateService.isLoadingComplete.toggle()
+            }
+        }
+        
+      
     }
 }
 

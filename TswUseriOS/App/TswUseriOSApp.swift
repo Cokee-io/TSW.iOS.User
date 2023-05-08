@@ -13,6 +13,7 @@ struct TswUseriOSApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     @StateObject var launchState = LaunchStateService()
+    let userToken = UserDefaults.standard.string(forKey: "userToken")
 
     var body: some Scene {
         WindowGroup {
@@ -22,10 +23,17 @@ struct TswUseriOSApp: App {
                 
                 if launchState.isLoadingComplete == false {
                     SplashView()
+                        .environmentObject(launchState)
+                } else {
+                    if userToken == nil {
+                        LoginView()
+                    } else {
+                        HomeView()
+                    }
                 }
                 
             }
-            .environmentObject(launchState)
+           
            
         }
     }
