@@ -42,6 +42,9 @@
 		FE3C29F52A09564800978787 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C29F42A09564800978787 /* RegistrationView.swift */; };
 		FE3C29FC2A09568400978787 /* FindPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C29FB2A09568400978787 /* FindPasswordView.swift */; };
 		FE3C29FE2A09575100978787 /* PageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C29FD2A09575100978787 /* PageHeader.swift */; };
+		FE3C2A032A0A7ED700978787 /* CheckBoxToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A022A0A7ED700978787 /* CheckBoxToggle.swift */; };
+		FE3C2A052A0A9F8300978787 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A042A0A9F8300978787 /* RegistrationViewModel.swift */; };
+		FE3C2A072A0AA02D00978787 /* Agreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A062A0AA02D00978787 /* Agreement.swift */; };
 		FEB9E56B2A0935DF00DAA33C /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FEB9E5652A0935DF00DAA33C /* NotoSansKR-Black.otf */; };
 		FEB9E56C2A0935DF00DAA33C /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = FEB9E5662A0935DF00DAA33C /* NotoSansKR-Thin.otf */; };
 		FEB9E56D2A0935DF00DAA33C /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FEB9E5672A0935DF00DAA33C /* NotoSansKR-Bold.otf */; };
@@ -109,6 +112,9 @@
 		FE3C29F42A09564800978787 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		FE3C29FB2A09568400978787 /* FindPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPasswordView.swift; sourceTree = "<group>"; };
 		FE3C29FD2A09575100978787 /* PageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHeader.swift; sourceTree = "<group>"; };
+		FE3C2A022A0A7ED700978787 /* CheckBoxToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxToggle.swift; sourceTree = "<group>"; };
+		FE3C2A042A0A9F8300978787 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		FE3C2A062A0AA02D00978787 /* Agreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agreement.swift; sourceTree = "<group>"; };
 		FEB9E5652A0935DF00DAA33C /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
 		FEB9E5662A0935DF00DAA33C /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
 		FEB9E5672A0935DF00DAA33C /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
@@ -350,6 +356,8 @@
 			isa = PBXGroup;
 			children = (
 				FE3C29F42A09564800978787 /* RegistrationView.swift */,
+				FE3C2A042A0A9F8300978787 /* RegistrationViewModel.swift */,
+				FE3C2A062A0AA02D00978787 /* Agreement.swift */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -404,6 +412,7 @@
 			isa = PBXGroup;
 			children = (
 				FE3C29FD2A09575100978787 /* PageHeader.swift */,
+				FE3C2A022A0A7ED700978787 /* CheckBoxToggle.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -563,6 +572,7 @@
 				FE25DB3129FFFB7A002FA30A /* AuthService.swift in Sources */,
 				FE25DB502A001647002FA30A /* ApiResponse.swift in Sources */,
 				FE25DB2929FFF58B002FA30A /* LoginView.swift in Sources */,
+				FE3C2A032A0A7ED700978787 /* CheckBoxToggle.swift in Sources */,
 				FE25DB3B29FFFF76002FA30A /* Gender.swift in Sources */,
 				FE25DB3729FFFEB6002FA30A /* User.swift in Sources */,
 				FE1D92CD298E14FC009EF316 /* TswUseriOSApp.swift in Sources */,
@@ -572,6 +582,7 @@
 				FEB9E5772A093CAD00DAA33C /* HomeView.swift in Sources */,
 				FE1D9308298E2C51009EF316 /* AppDelegate.swift in Sources */,
 				FE25DB3F2A000127002FA30A /* PlatformType.swift in Sources */,
+				FE3C2A072A0AA02D00978787 /* Agreement.swift in Sources */,
 				FE25DB2029FFED63002FA30A /* Endpoint.swift in Sources */,
 				FE3C29FE2A09575100978787 /* PageHeader.swift in Sources */,
 				FE25DB2B29FFF5A3002FA30A /* LoginViewModel.swift in Sources */,
@@ -580,6 +591,7 @@
 				FE25DB442A0002FC002FA30A /* Endpoint+Auth.swift in Sources */,
 				FE25DB2D29FFF665002FA30A /* NetworkError.swift in Sources */,
 				FEB9E5722A09376A00DAA33C /* Spacing.swift in Sources */,
+				FE3C2A052A0A9F8300978787 /* RegistrationViewModel.swift in Sources */,
 				FE1D92D9298E14FD009EF316 /* TswUseriOS.xcdatamodeld in Sources */,
 				FE25DB4B2A0011DF002FA30A /* SplashView.swift in Sources */,
 			);
@@ -668,7 +680,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -722,7 +734,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

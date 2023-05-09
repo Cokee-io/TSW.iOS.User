@@ -13,49 +13,44 @@ struct LoginView: View {
     @State var pwd = ""
     
     var body: some View {
+        let paddedWidth = UIScreen.main.bounds.width - (Spacing.spacingL * 2)
+        
         NavigationView {
             VStack {
                 Image("splash_logo")
                     .padding(.top, 100)
                     .padding(.bottom, 70)
                 
-                VStack(alignment: .leading, spacing: 12) {
-                    // text field
+                VStack(alignment: .leading) {
                     HStack(spacing: 12.4) {
                         Image("human")
                         TextField("아이디", text: $id)
                             .foregroundColor(.white)
                     }
-                    .padding(.vertical)
+                    .padding(.bottom, Spacing.spacingS)
+                    .padding(.top, Spacing.spacingM)
                     .padding(.horizontal, Spacing.spacingM)
-                }
-                .frame(width: UIScreen.main.bounds.width - 40)
-                .overlay(
+                    
                     Rectangle()
-                        .stroke(Color(.backgroundsOutline2), lineWidth: 1)
-                        .cornerRadius(12, corners: .topLeft)
-                        .cornerRadius(12, corners: .topRight)
-                )
-                .padding(.bottom, -9)
-                
-                
-                VStack(alignment: .leading, spacing: 12) {
-                    // text field
+                        .frame(width: paddedWidth, height: 1)
+                        .foregroundColor(Color(.backgroundsOutline2))
+                    
                     HStack(spacing: 12.4) {
                         Image("lock")
                         SecureField("비밀번호", text: $pwd)
                             .foregroundColor(.white)
                     }
-                    .padding(.vertical)
+                    .padding(.top, Spacing.spacingS)
+                    .padding(.bottom, Spacing.spacingM)
                     .padding(.horizontal, Spacing.spacingM)
+                  
                 }
-                .frame(width: UIScreen.main.bounds.width - 40)
-                .overlay(
-                    Rectangle()
+                .overlay (
+                    RoundedRectangle(cornerRadius: 12)
                         .stroke(Color(.backgroundsOutline2), lineWidth: 1)
-                        .cornerRadius(12, corners: .bottomLeft)
-                        .cornerRadius(12, corners: .bottomRight)
                 )
+                .padding(.horizontal, Spacing.spacingL)
+                .padding(.bottom, Spacing.spacingM)
                 
                 Button {
                     viewModel.login(withId: id, password: pwd)
@@ -65,10 +60,9 @@ struct LoginView: View {
                         .foregroundColor(.white)
                         .padding(.vertical, 17)
                 }
-                .frame(width: UIScreen.main.bounds.width - 40)
+                .frame(width: paddedWidth)
                 .background(Color(.graybaseGray1))
                 .cornerRadius(10)
-                .padding(.top, Spacing.spacingM)
                 .padding(.bottom, Spacing.spacingXl)
                 
                 
@@ -86,7 +80,7 @@ struct LoginView: View {
                         .foregroundColor(Color(.graybaseGray2))
                     
                     NavigationLink {
-                        
+                        RegistrationView()
                     } label: {
                         Text("회원가입")
                             .font(Font(.caption1))
@@ -113,7 +107,7 @@ struct LoginView: View {
                             .padding(.vertical, Spacing.spacingM)
                     }
                 }
-                .frame(width: UIScreen.main.bounds.width - 40)
+                .frame(width: paddedWidth)
                 .background(Color(red: 30 / 255.0, green: 200 / 255.0, blue: 0 / 255.0, opacity: 1))
                 .cornerRadius(10)
                 
@@ -128,7 +122,7 @@ struct LoginView: View {
                             .padding(.vertical, Spacing.spacingM)
                     }
                 }
-                .frame(width: UIScreen.main.bounds.width - 40)
+                .frame(width: paddedWidth)
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(Color(.backgroundsOutline2), lineWidth: 1)

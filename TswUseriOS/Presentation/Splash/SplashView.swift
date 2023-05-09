@@ -12,17 +12,16 @@ struct SplashView: View {
     
     var body: some View {
         VStack {
-            
             Image("splash_logo")
         }
         .onAppear {
-            DispatchQueue.main.async {
-                
+//            DispatchQueue.main.async {
+//                launchStateService.isLoadingComplete.toggle()
+//            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
                 launchStateService.isLoadingComplete.toggle()
             }
         }
-        
-      
     }
 }
 
