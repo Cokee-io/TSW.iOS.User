@@ -54,6 +54,7 @@
 		FEB9E5722A09376A00DAA33C /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9E5712A09376A00DAA33C /* Spacing.swift */; };
 		FEB9E5772A093CAD00DAA33C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9E5762A093CAD00DAA33C /* HomeView.swift */; };
 		FEB9E57A2A093FA600DAA33C /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB9E5792A093FA600DAA33C /* RoundedCorner.swift */; };
+		FEF2D20F2A1A2EF1007487A4 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2D20E2A1A2EF1007487A4 /* DefaultButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		FEB9E5712A09376A00DAA33C /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		FEB9E5762A093CAD00DAA33C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FEB9E5792A093FA600DAA33C /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		FEF2D20E2A1A2EF1007487A4 /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,6 +415,7 @@
 			children = (
 				FE3C29FD2A09575100978787 /* PageHeader.swift */,
 				FE3C2A022A0A7ED700978787 /* CheckBoxToggle.swift */,
+				FEF2D20E2A1A2EF1007487A4 /* DefaultButton.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -568,6 +571,7 @@
 				FE3C29F52A09564800978787 /* RegistrationView.swift in Sources */,
 				FE1D92CF298E14FC009EF316 /* ContentView.swift in Sources */,
 				FE25DB412A00015D002FA30A /* BallFightType.swift in Sources */,
+				FEF2D20F2A1A2EF1007487A4 /* DefaultButton.swift in Sources */,
 				FE25DB3529FFFCD8002FA30A /* TokenInfo.swift in Sources */,
 				FE25DB3129FFFB7A002FA30A /* AuthService.swift in Sources */,
 				FE25DB502A001647002FA30A /* ApiResponse.swift in Sources */,
