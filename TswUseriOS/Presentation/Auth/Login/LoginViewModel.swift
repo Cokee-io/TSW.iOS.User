@@ -18,7 +18,7 @@ class LoginViewModel: ObservableObject {
     
     
     func login(withId: String, password: String) {
-        
+        UserDefaults.standard.setValue("test", forKey: "userToken")
     }
     
     
