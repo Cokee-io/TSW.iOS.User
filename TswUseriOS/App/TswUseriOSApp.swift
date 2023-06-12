@@ -13,7 +13,7 @@ struct TswUseriOSApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     @StateObject var launchState = LaunchStateService()
-    let userToken = UserDefaults.standard.string(forKey: "userToken")
+    @State var userToken = UserDefaults.standard.string(forKey: "userToken")
 
     @State var tabSelection = 0
     
@@ -33,7 +33,9 @@ struct TswUseriOSApp: App {
                         .environmentObject(launchState)
                 } else {
                     if userToken == nil {
-                        LoginView()
+                        LoginView {
+                            userToken = UserDefaults.standard.string(forKey: "userToken")
+                        }
                     } else {
                         NavigationView {
                             TabView(selection: $tabSelection) {

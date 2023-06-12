@@ -11,6 +11,7 @@ struct LoginView: View {
     @StateObject var viewModel = LoginViewModel()
     @State var id = ""
     @State var pwd = ""
+    let onLoginComplete: () -> Void
     
     var body: some View {
         let paddedWidth = UIScreen.main.bounds.width - (Spacing.spacingL * 2)
@@ -53,7 +54,8 @@ struct LoginView: View {
                 .padding(.bottom, Spacing.spacingM)
                 
                 Button {
-                    viewModel.login(withId: id, password: pwd)
+                    let isSuccess = viewModel.login(withId: id, password: pwd)
+                    if isSuccess { onLoginComplete() }
                 } label: {
                     Text("로그인")
                         .font(Font(.headline))

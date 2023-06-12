@@ -17,9 +17,22 @@ class LoginViewModel: ObservableObject {
     }
     
     
-    func login(withId: String, password: String) {
-        UserDefaults.standard.setValue("test", forKey: "userToken")
+    func login(withId: String, password: String) -> Bool {
+        var isSuccess = false
+        let publisher = authService.login(username: withId, password: password)
+        let cancellable = publisher.sink { completion in
+            print("Completion: \(completion)")
+        } receiveValue: { res in
+            if res.status == "SUCESS" {
+                let token = res.data.token
+                let refreshToken = res.data.refreshToken
+                
+                UserDefaults.standard.setValue(token, forKey: "userToken")
+                UserDefaults.standard.setValue(refreshToken, forKey: "refreshToken")
+                isSuccess = true
+            }
+        }
+        
+        return isSuccess
     }
-    
-    
 }
