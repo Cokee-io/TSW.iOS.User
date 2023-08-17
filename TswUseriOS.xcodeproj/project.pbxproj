@@ -16,7 +16,6 @@
 		FE1D92E3298E14FD009EF316 /* TswUseriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D92E2298E14FD009EF316 /* TswUseriOSTests.swift */; };
 		FE1D92ED298E14FD009EF316 /* TswUseriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D92EC298E14FD009EF316 /* TswUseriOSUITests.swift */; };
 		FE1D92EF298E14FD009EF316 /* TswUseriOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D92EE298E14FD009EF316 /* TswUseriOSUITestsLaunchTests.swift */; };
-		FE1D92FF298E23AF009EF316 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE1D92FE298E23AF009EF316 /* GoogleService-Info.plist */; };
 		FE1D9302298E27A4009EF316 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FE1D9301298E27A4009EF316 /* FirebaseAnalytics */; };
 		FE1D9304298E27A4009EF316 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FE1D9303298E27A4009EF316 /* FirebaseMessaging */; };
 		FE1D9308298E2C51009EF316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D9307298E2C51009EF316 /* AppDelegate.swift */; };
@@ -45,6 +44,7 @@
 		FE3C2A032A0A7ED700978787 /* CheckBoxToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A022A0A7ED700978787 /* CheckBoxToggle.swift */; };
 		FE3C2A052A0A9F8300978787 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A042A0A9F8300978787 /* RegistrationViewModel.swift */; };
 		FE3C2A072A0AA02D00978787 /* Agreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A062A0AA02D00978787 /* Agreement.swift */; };
+		FE5628252A8E522400B147FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE5628242A8E522400B147FC /* GoogleService-Info.plist */; };
 		FE5C78202A24E90A006FC48D /* ScorecardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C781F2A24E90A006FC48D /* ScorecardListView.swift */; };
 		FE5C78242A24F130006FC48D /* NasmoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C78232A24F130006FC48D /* NasmoListView.swift */; };
 		FE5C78262A24F139006FC48D /* NasmoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C78252A24F139006FC48D /* NasmoDetailView.swift */; };
@@ -91,7 +91,6 @@
 		FE1D92E8298E14FD009EF316 /* TswUseriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TswUseriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1D92EC298E14FD009EF316 /* TswUseriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TswUseriOSUITests.swift; sourceTree = "<group>"; };
 		FE1D92EE298E14FD009EF316 /* TswUseriOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TswUseriOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FE1D92FE298E23AF009EF316 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE1D9305298E2B79009EF316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1D9306298E2B9B009EF316 /* TswUseriOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TswUseriOS.entitlements; sourceTree = "<group>"; };
 		FE1D9307298E2C51009EF316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +119,7 @@
 		FE3C2A022A0A7ED700978787 /* CheckBoxToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxToggle.swift; sourceTree = "<group>"; };
 		FE3C2A042A0A9F8300978787 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		FE3C2A062A0AA02D00978787 /* Agreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agreement.swift; sourceTree = "<group>"; };
+		FE5628242A8E522400B147FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE5C781F2A24E90A006FC48D /* ScorecardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardListView.swift; sourceTree = "<group>"; };
 		FE5C78232A24F130006FC48D /* NasmoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasmoListView.swift; sourceTree = "<group>"; };
 		FE5C78252A24F139006FC48D /* NasmoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasmoDetailView.swift; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 				FE1D92D5298E14FD009EF316 /* Persistence.swift */,
 				FE1D92D7298E14FD009EF316 /* TswUseriOS.xcdatamodeld */,
 				FE1D9306298E2B9B009EF316 /* TswUseriOS.entitlements */,
-				FE1D92FE298E23AF009EF316 /* GoogleService-Info.plist */,
+				FE5628242A8E522400B147FC /* GoogleService-Info.plist */,
 			);
 			path = TswUseriOS;
 			sourceTree = "<group>";
@@ -533,11 +533,12 @@
 			};
 			buildConfigurationList = FE1D92C4298E14FC009EF316 /* Build configuration list for PBXProject "TswUseriOS" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = FE1D92C0298E14FC009EF316;
 			packageReferences = (
@@ -560,12 +561,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE1D92D4298E14FD009EF316 /* Preview Assets.xcassets in Resources */,
-				FE1D92FF298E23AF009EF316 /* GoogleService-Info.plist in Resources */,
 				FE1D92D1298E14FD009EF316 /* Assets.xcassets in Resources */,
 				FEB9E56B2A0935DF00DAA33C /* NotoSansKR-Black.otf in Resources */,
 				FEB9E56F2A0935DF00DAA33C /* NotoSansKR-Medium.otf in Resources */,
 				FEB9E56D2A0935DF00DAA33C /* NotoSansKR-Bold.otf in Resources */,
 				FEB9E5702A0935DF00DAA33C /* NotoSansKR-Light.otf in Resources */,
+				FE5628252A8E522400B147FC /* GoogleService-Info.plist in Resources */,
 				FEB9E56C2A0935DF00DAA33C /* NotoSansKR-Thin.otf in Resources */,
 				FEB9E56E2A0935DF00DAA33C /* NotoSansKR-Regular.otf in Resources */,
 			);
@@ -806,7 +807,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.cokee.TswUser.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theswingplay.TswUser.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -843,7 +844,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.cokee.TswUser.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theswingplay.TswUser.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
