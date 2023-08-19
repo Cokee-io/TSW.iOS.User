@@ -14,5 +14,8 @@ struct User: Codable, Identifiable {
     let nickName: String
     let profileImg: String
     let phoneNumber: String
+    let email: String
     let gender: Gender
+    let age: Int
+    let language: Language
 }

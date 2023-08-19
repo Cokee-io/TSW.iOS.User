@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum OAuthProvider: String, Decodable {
-    case None
-    case Google
-    case Naver
+enum OAuthProvider: String, Codable {
+    case None = "None"
+    case Google = "Google"
+    case Naver = "Naver"
 }

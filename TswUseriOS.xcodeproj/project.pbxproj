@@ -65,6 +65,41 @@
 		FE3C2A032A0A7ED700978787 /* CheckBoxToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A022A0A7ED700978787 /* CheckBoxToggle.swift */; };
 		FE3C2A052A0A9F8300978787 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A042A0A9F8300978787 /* RegistrationViewModel.swift */; };
 		FE3C2A072A0AA02D00978787 /* Agreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C2A062A0AA02D00978787 /* Agreement.swift */; };
+		FE42CB452A91020D00968C16 /* Faq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB442A91020D00968C16 /* Faq.swift */; };
+		FE42CB482A91022D00968C16 /* ScreenConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB472A91022D00968C16 /* ScreenConfig.swift */; };
+		FE42CB4A2A91051700968C16 /* DistanceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB492A91051700968C16 /* DistanceConfig.swift */; };
+		FE42CB4C2A91056100968C16 /* AgreementReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB4B2A91056100968C16 /* AgreementReq.swift */; };
+		FE42CB4E2A91058600968C16 /* AgreementStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB4D2A91058600968C16 /* AgreementStatus.swift */; };
+		FE42CB502A9105BB00968C16 /* PagedFaq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB4F2A9105BB00968C16 /* PagedFaq.swift */; };
+		FE42CB522A91068300968C16 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB512A91068300968C16 /* Notice.swift */; };
+		FE42CB552A91075F00968C16 /* PagedNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB542A91075F00968C16 /* PagedNotice.swift */; };
+		FE42CB572A91079900968C16 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB562A91079900968C16 /* Question.swift */; };
+		FE42CB592A91085700968C16 /* PagedQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB582A91085700968C16 /* PagedQuestion.swift */; };
+		FE42CB5B2A91089100968C16 /* QuestionReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB5A2A91089100968C16 /* QuestionReq.swift */; };
+		FE42CB5D2A91095600968C16 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB5C2A91095600968C16 /* Language.swift */; };
+		FE42CB5F2A9109B600968C16 /* NationalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB5E2A9109B600968C16 /* NationalInfo.swift */; };
+		FE42CB612A9109FB00968C16 /* NaverGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB602A9109FB00968C16 /* NaverGender.swift */; };
+		FE42CB632A910A4E00968C16 /* UserToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB622A910A4E00968C16 /* UserToken.swift */; };
+		FE42CB652A910A8B00968C16 /* WithdrawalReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB642A910A8B00968C16 /* WithdrawalReq.swift */; };
+		FE42CB672A910AB200968C16 /* SignupReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB662A910AB200968C16 /* SignupReq.swift */; };
+		FE42CB692A910BF300968C16 /* RefreshReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB682A910BF300968C16 /* RefreshReq.swift */; };
+		FE42CB6B2A910C2600968C16 /* ChangePasswordReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB6A2A910C2600968C16 /* ChangePasswordReq.swift */; };
+		FE42CB6E2A910C6600968C16 /* ChangePwByEmailReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB6D2A910C6600968C16 /* ChangePwByEmailReq.swift */; };
+		FE42CB712A910C9E00968C16 /* ChangePwByPhoneReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB702A910C9E00968C16 /* ChangePwByPhoneReq.swift */; };
+		FE42CB732A910CD200968C16 /* EditMemberInfoReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB722A910CD200968C16 /* EditMemberInfoReq.swift */; };
+		FE42CB782A910D7200968C16 /* NaverUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB772A910D7200968C16 /* NaverUserData.swift */; };
+		FE42CB7A2A910D7C00968C16 /* SocialLoginReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB792A910D7C00968C16 /* SocialLoginReq.swift */; };
+		FE42CB7C2A910D8600968C16 /* SocialLoginRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB7B2A910D8600968C16 /* SocialLoginRes.swift */; };
+		FE42CB7E2A910D8D00968C16 /* SocialUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB7D2A910D8D00968C16 /* SocialUserData.swift */; };
+		FE42CB812A910F7900968C16 /* PassCryptoReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB802A910F7900968C16 /* PassCryptoReq.swift */; };
+		FE42CB832A91100300968C16 /* PassCryptoRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB822A91100300968C16 /* PassCryptoRes.swift */; };
+		FE42CB852A91102E00968C16 /* PassResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB842A91102E00968C16 /* PassResult.swift */; };
+		FE42CB872A91112600968C16 /* NasmoPlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB862A91112600968C16 /* NasmoPlayerInfo.swift */; };
+		FE42CB8A2A91120500968C16 /* ScorecardListReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB892A91120500968C16 /* ScorecardListReq.swift */; };
+		FE42CB8C2A91123900968C16 /* ScorecardRemoteKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB8B2A91123900968C16 /* ScorecardRemoteKeys.swift */; };
+		FE42CB8E2A91127A00968C16 /* ScoreCompanionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB8D2A91127A00968C16 /* ScoreCompanionSheet.swift */; };
+		FE42CB902A91135D00968C16 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB8F2A91135D00968C16 /* Reservation.swift */; };
+		FE42CB922A9113E900968C16 /* SearchCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE42CB912A9113E900968C16 /* SearchCondition.swift */; };
 		FE5628252A8E522400B147FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE5628242A8E522400B147FC /* GoogleService-Info.plist */; };
 		FE5C78202A24E90A006FC48D /* ScorecardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C781F2A24E90A006FC48D /* ScorecardListView.swift */; };
 		FE5C78242A24F130006FC48D /* NasmoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C78232A24F130006FC48D /* NasmoListView.swift */; };
@@ -161,6 +196,41 @@
 		FE3C2A022A0A7ED700978787 /* CheckBoxToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxToggle.swift; sourceTree = "<group>"; };
 		FE3C2A042A0A9F8300978787 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		FE3C2A062A0AA02D00978787 /* Agreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agreement.swift; sourceTree = "<group>"; };
+		FE42CB442A91020D00968C16 /* Faq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faq.swift; sourceTree = "<group>"; };
+		FE42CB472A91022D00968C16 /* ScreenConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConfig.swift; sourceTree = "<group>"; };
+		FE42CB492A91051700968C16 /* DistanceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceConfig.swift; sourceTree = "<group>"; };
+		FE42CB4B2A91056100968C16 /* AgreementReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementReq.swift; sourceTree = "<group>"; };
+		FE42CB4D2A91058600968C16 /* AgreementStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementStatus.swift; sourceTree = "<group>"; };
+		FE42CB4F2A9105BB00968C16 /* PagedFaq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedFaq.swift; sourceTree = "<group>"; };
+		FE42CB512A91068300968C16 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		FE42CB542A91075F00968C16 /* PagedNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedNotice.swift; sourceTree = "<group>"; };
+		FE42CB562A91079900968C16 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FE42CB582A91085700968C16 /* PagedQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedQuestion.swift; sourceTree = "<group>"; };
+		FE42CB5A2A91089100968C16 /* QuestionReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionReq.swift; sourceTree = "<group>"; };
+		FE42CB5C2A91095600968C16 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		FE42CB5E2A9109B600968C16 /* NationalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalInfo.swift; sourceTree = "<group>"; };
+		FE42CB602A9109FB00968C16 /* NaverGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverGender.swift; sourceTree = "<group>"; };
+		FE42CB622A910A4E00968C16 /* UserToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserToken.swift; sourceTree = "<group>"; };
+		FE42CB642A910A8B00968C16 /* WithdrawalReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawalReq.swift; sourceTree = "<group>"; };
+		FE42CB662A910AB200968C16 /* SignupReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupReq.swift; sourceTree = "<group>"; };
+		FE42CB682A910BF300968C16 /* RefreshReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshReq.swift; sourceTree = "<group>"; };
+		FE42CB6A2A910C2600968C16 /* ChangePasswordReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordReq.swift; sourceTree = "<group>"; };
+		FE42CB6D2A910C6600968C16 /* ChangePwByEmailReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePwByEmailReq.swift; sourceTree = "<group>"; };
+		FE42CB702A910C9E00968C16 /* ChangePwByPhoneReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePwByPhoneReq.swift; sourceTree = "<group>"; };
+		FE42CB722A910CD200968C16 /* EditMemberInfoReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemberInfoReq.swift; sourceTree = "<group>"; };
+		FE42CB772A910D7200968C16 /* NaverUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverUserData.swift; sourceTree = "<group>"; };
+		FE42CB792A910D7C00968C16 /* SocialLoginReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginReq.swift; sourceTree = "<group>"; };
+		FE42CB7B2A910D8600968C16 /* SocialLoginRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginRes.swift; sourceTree = "<group>"; };
+		FE42CB7D2A910D8D00968C16 /* SocialUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialUserData.swift; sourceTree = "<group>"; };
+		FE42CB802A910F7900968C16 /* PassCryptoReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCryptoReq.swift; sourceTree = "<group>"; };
+		FE42CB822A91100300968C16 /* PassCryptoRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCryptoRes.swift; sourceTree = "<group>"; };
+		FE42CB842A91102E00968C16 /* PassResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassResult.swift; sourceTree = "<group>"; };
+		FE42CB862A91112600968C16 /* NasmoPlayerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasmoPlayerInfo.swift; sourceTree = "<group>"; };
+		FE42CB892A91120500968C16 /* ScorecardListReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardListReq.swift; sourceTree = "<group>"; };
+		FE42CB8B2A91123900968C16 /* ScorecardRemoteKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardRemoteKeys.swift; sourceTree = "<group>"; };
+		FE42CB8D2A91127A00968C16 /* ScoreCompanionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCompanionSheet.swift; sourceTree = "<group>"; };
+		FE42CB8F2A91135D00968C16 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		FE42CB912A9113E900968C16 /* SearchCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCondition.swift; sourceTree = "<group>"; };
 		FE5628242A8E522400B147FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE5C781F2A24E90A006FC48D /* ScorecardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorecardListView.swift; sourceTree = "<group>"; };
 		FE5C78232A24F130006FC48D /* NasmoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasmoListView.swift; sourceTree = "<group>"; };
@@ -358,7 +428,7 @@
 				FE36E26B2A90FBAE0099FB56 /* Auth */,
 				FE36E2582A90FBAE0099FB56 /* Board */,
 				FE36E2592A90FBAE0099FB56 /* Common */,
-				FE36E26A2A90FBAE0099FB56 /* Config */,
+				FE42CB462A91021300968C16 /* Config */,
 				FE36E2542A90FBAE0099FB56 /* Main */,
 				FE36E2652A90FBAE0099FB56 /* Nasmo */,
 				FE36E25B2A90FBAE0099FB56 /* Profile */,
@@ -375,6 +445,9 @@
 				FE25DB3C2A0000F1002FA30A /* OAuthProvider.swift */,
 				FE25DB3E2A000127002FA30A /* PlatformType.swift */,
 				FE25DB402A00015D002FA30A /* BallFightType.swift */,
+				FE42CB5C2A91095600968C16 /* Language.swift */,
+				FE42CB5E2A9109B600968C16 /* NationalInfo.swift */,
+				FE42CB602A9109FB00968C16 /* NaverGender.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -409,10 +482,13 @@
 			isa = PBXGroup;
 			children = (
 				FE36E24F2A90FBAE0099FB56 /* PagedScorecardShort.swift */,
+				FE36E2522A90FBAE0099FB56 /* PagedScorecard.swift */,
 				FE36E2502A90FBAE0099FB56 /* Scorecard.swift */,
 				FE36E2512A90FBAE0099FB56 /* ScorecardShort.swift */,
-				FE36E2522A90FBAE0099FB56 /* PagedScorecard.swift */,
 				FE36E2532A90FBAE0099FB56 /* Scoresheet.swift */,
+				FE42CB892A91120500968C16 /* ScorecardListReq.swift */,
+				FE42CB8B2A91123900968C16 /* ScorecardRemoteKeys.swift */,
+				FE42CB8D2A91127A00968C16 /* ScoreCompanionSheet.swift */,
 			);
 			path = Scorecard;
 			sourceTree = "<group>";
@@ -430,6 +506,13 @@
 		FE36E2582A90FBAE0099FB56 /* Board */ = {
 			isa = PBXGroup;
 			children = (
+				FE42CB442A91020D00968C16 /* Faq.swift */,
+				FE42CB4F2A9105BB00968C16 /* PagedFaq.swift */,
+				FE42CB512A91068300968C16 /* Notice.swift */,
+				FE42CB542A91075F00968C16 /* PagedNotice.swift */,
+				FE42CB562A91079900968C16 /* Question.swift */,
+				FE42CB582A91085700968C16 /* PagedQuestion.swift */,
+				FE42CB5A2A91089100968C16 /* QuestionReq.swift */,
 			);
 			path = Board;
 			sourceTree = "<group>";
@@ -457,9 +540,11 @@
 		FE36E2612A90FBAE0099FB56 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				FE42CB8F2A91135D00968C16 /* Reservation.swift */,
 				FE36E2622A90FBAE0099FB56 /* ShopShort.swift */,
 				FE36E2632A90FBAE0099FB56 /* Shop.swift */,
 				FE36E2642A90FBAE0099FB56 /* ShopLatLng.swift */,
+				FE42CB912A9113E900968C16 /* SearchCondition.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -469,25 +554,21 @@
 			children = (
 				FE36E2662A90FBAE0099FB56 /* Nasmo.swift */,
 				FE36E2672A90FBAE0099FB56 /* PagedNasmo.swift */,
-				FE36E2682A90FBAE0099FB56 /* NasmoGroup.swift */,
 				FE36E2692A90FBAE0099FB56 /* NasmoListItem.swift */,
+				FE36E2682A90FBAE0099FB56 /* NasmoGroup.swift */,
+				FE42CB862A91112600968C16 /* NasmoPlayerInfo.swift */,
 			);
 			path = Nasmo;
-			sourceTree = "<group>";
-		};
-		FE36E26A2A90FBAE0099FB56 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 		FE36E26B2A90FBAE0099FB56 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				FE36E26C2A90FBAE0099FB56 /* LoginReq.swift */,
+				FE42CB7F2A910F6E00968C16 /* Pass */,
+				FE42CB762A910D6400968C16 /* OAuth */,
+				FE42CB6C2A910C4500968C16 /* Req */,
 				FE36E26D2A90FBAE0099FB56 /* User.swift */,
-				FE36E26E2A90FBAE0099FB56 /* TokenInfo.swift */,
+				FE42CB622A910A4E00968C16 /* UserToken.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -517,6 +598,54 @@
 				FE3C29FB2A09568400978787 /* FindPasswordView.swift */,
 			);
 			path = FindPassword;
+			sourceTree = "<group>";
+		};
+		FE42CB462A91021300968C16 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FE42CB4B2A91056100968C16 /* AgreementReq.swift */,
+				FE42CB4D2A91058600968C16 /* AgreementStatus.swift */,
+				FE42CB472A91022D00968C16 /* ScreenConfig.swift */,
+				FE42CB492A91051700968C16 /* DistanceConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FE42CB6C2A910C4500968C16 /* Req */ = {
+			isa = PBXGroup;
+			children = (
+				FE36E26C2A90FBAE0099FB56 /* LoginReq.swift */,
+				FE36E26E2A90FBAE0099FB56 /* TokenInfo.swift */,
+				FE42CB642A910A8B00968C16 /* WithdrawalReq.swift */,
+				FE42CB662A910AB200968C16 /* SignupReq.swift */,
+				FE42CB682A910BF300968C16 /* RefreshReq.swift */,
+				FE42CB6A2A910C2600968C16 /* ChangePasswordReq.swift */,
+				FE42CB6D2A910C6600968C16 /* ChangePwByEmailReq.swift */,
+				FE42CB702A910C9E00968C16 /* ChangePwByPhoneReq.swift */,
+				FE42CB722A910CD200968C16 /* EditMemberInfoReq.swift */,
+			);
+			path = Req;
+			sourceTree = "<group>";
+		};
+		FE42CB762A910D6400968C16 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				FE42CB772A910D7200968C16 /* NaverUserData.swift */,
+				FE42CB792A910D7C00968C16 /* SocialLoginReq.swift */,
+				FE42CB7B2A910D8600968C16 /* SocialLoginRes.swift */,
+				FE42CB7D2A910D8D00968C16 /* SocialUserData.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		FE42CB7F2A910F6E00968C16 /* Pass */ = {
+			isa = PBXGroup;
+			children = (
+				FE42CB802A910F7900968C16 /* PassCryptoReq.swift */,
+				FE42CB822A91100300968C16 /* PassCryptoRes.swift */,
+				FE42CB842A91102E00968C16 /* PassResult.swift */,
+			);
+			path = Pass;
 			sourceTree = "<group>";
 		};
 		FE5C781E2A24E8FC006FC48D /* Scorecard */ = {
@@ -645,7 +774,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					FE1D92C8298E14FC009EF316 = {
 						CreatedOnToolsVersion = 14.2;
@@ -723,42 +852,70 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE42CB712A910C9E00968C16 /* ChangePwByPhoneReq.swift in Sources */,
+				FE42CB7A2A910D7C00968C16 /* SocialLoginReq.swift in Sources */,
 				FE5C78282A24F182006FC48D /* ScorecardDetailView.swift in Sources */,
 				FE1D92D6298E14FD009EF316 /* Persistence.swift in Sources */,
+				FE42CB692A910BF300968C16 /* RefreshReq.swift in Sources */,
 				FE3C29FC2A09568400978787 /* FindPasswordView.swift in Sources */,
 				FE25DB2329FFEDA5002FA30A /* Networker.swift in Sources */,
+				FE42CB4E2A91058600968C16 /* AgreementStatus.swift in Sources */,
+				FE42CB612A9109FB00968C16 /* NaverGender.swift in Sources */,
 				FE5C78242A24F130006FC48D /* NasmoListView.swift in Sources */,
 				FE36E2742A90FBAE0099FB56 /* MainScoreCard.swift in Sources */,
+				FE42CB812A910F7900968C16 /* PassCryptoReq.swift in Sources */,
 				FE3C29F52A09564800978787 /* RegistrationView.swift in Sources */,
+				FE42CB5F2A9109B600968C16 /* NationalInfo.swift in Sources */,
+				FE42CB482A91022D00968C16 /* ScreenConfig.swift in Sources */,
+				FE42CB652A910A8B00968C16 /* WithdrawalReq.swift in Sources */,
 				FE36E2732A90FBAE0099FB56 /* Scoresheet.swift in Sources */,
 				FE1D92CF298E14FC009EF316 /* ContentView.swift in Sources */,
+				FE42CB4A2A91051700968C16 /* DistanceConfig.swift in Sources */,
 				FE36E2762A90FBAE0099FB56 /* MainData.swift in Sources */,
+				FE42CB852A91102E00968C16 /* PassResult.swift in Sources */,
 				FE25DB412A00015D002FA30A /* BallFightType.swift in Sources */,
+				FE42CB4C2A91056100968C16 /* AgreementReq.swift in Sources */,
+				FE42CB522A91068300968C16 /* Notice.swift in Sources */,
 				FEF2D20F2A1A2EF1007487A4 /* DefaultButton.swift in Sources */,
+				FE42CB632A910A4E00968C16 /* UserToken.swift in Sources */,
 				FE36E2862A90FBAE0099FB56 /* TokenInfo.swift in Sources */,
 				FE36E2792A90FBAE0099FB56 /* ProfileScoreCard.swift in Sources */,
 				FE5C78202A24E90A006FC48D /* ScorecardListView.swift in Sources */,
 				FE25DB3129FFFB7A002FA30A /* AuthService.swift in Sources */,
 				FE5C78262A24F139006FC48D /* NasmoDetailView.swift in Sources */,
 				FE36E27A2A90FBAE0099FB56 /* SummaryProfileData.swift in Sources */,
+				FE42CB8C2A91123900968C16 /* ScorecardRemoteKeys.swift in Sources */,
 				FE36E27C2A90FBAE0099FB56 /* SimpleProfileData.swift in Sources */,
 				FE36E27D2A90FBAE0099FB56 /* ShopShort.swift in Sources */,
 				FE25DB502A001647002FA30A /* ApiResponse.swift in Sources */,
 				FE25DB2929FFF58B002FA30A /* LoginView.swift in Sources */,
 				FE36E2702A90FBAE0099FB56 /* Scorecard.swift in Sources */,
+				FE42CB902A91135D00968C16 /* Reservation.swift in Sources */,
+				FE42CB7E2A910D8D00968C16 /* SocialUserData.swift in Sources */,
 				FE36E2832A90FBAE0099FB56 /* NasmoListItem.swift in Sources */,
+				FE42CB872A91112600968C16 /* NasmoPlayerInfo.swift in Sources */,
 				FE3C2A032A0A7ED700978787 /* CheckBoxToggle.swift in Sources */,
+				FE42CB732A910CD200968C16 /* EditMemberInfoReq.swift in Sources */,
+				FE42CB832A91100300968C16 /* PassCryptoRes.swift in Sources */,
 				FE25DB3B29FFFF76002FA30A /* Gender.swift in Sources */,
+				FE42CB5D2A91095600968C16 /* Language.swift in Sources */,
+				FE42CB922A9113E900968C16 /* SearchCondition.swift in Sources */,
+				FE42CB8E2A91127A00968C16 /* ScoreCompanionSheet.swift in Sources */,
 				FE36E2782A90FBAE0099FB56 /* ProfileData.swift in Sources */,
+				FE42CB672A910AB200968C16 /* SignupReq.swift in Sources */,
 				FE1D92CD298E14FC009EF316 /* TswUseriOSApp.swift in Sources */,
+				FE42CB552A91075F00968C16 /* PagedNotice.swift in Sources */,
 				FE25DB2529FFEFC0002FA30A /* Endpoint+URL.swift in Sources */,
+				FE42CB6B2A910C2600968C16 /* ChangePasswordReq.swift in Sources */,
 				FE25DB3D2A0000F1002FA30A /* OAuthProvider.swift in Sources */,
+				FE42CB502A9105BB00968C16 /* PagedFaq.swift in Sources */,
 				FE25DB492A0010A8002FA30A /* LaunchStateService.swift in Sources */,
 				FEB9E5772A093CAD00DAA33C /* HomeView.swift in Sources */,
 				FE36E26F2A90FBAE0099FB56 /* PagedScorecardShort.swift in Sources */,
 				FE36E2752A90FBAE0099FB56 /* MainNasmoList.swift in Sources */,
 				FE1D9308298E2C51009EF316 /* AppDelegate.swift in Sources */,
 				FE25DB3F2A000127002FA30A /* PlatformType.swift in Sources */,
+				FE42CB572A91079900968C16 /* Question.swift in Sources */,
 				FE36E2812A90FBAE0099FB56 /* PagedNasmo.swift in Sources */,
 				FE3C2A072A0AA02D00978787 /* Agreement.swift in Sources */,
 				FE25DB2029FFED63002FA30A /* Endpoint.swift in Sources */,
@@ -769,16 +926,23 @@
 				FE36E27F2A90FBAE0099FB56 /* ShopLatLng.swift in Sources */,
 				FE36E2712A90FBAE0099FB56 /* ScorecardShort.swift in Sources */,
 				FE36E2852A90FBAE0099FB56 /* User.swift in Sources */,
+				FE42CB8A2A91120500968C16 /* ScorecardListReq.swift in Sources */,
 				FEB9E57A2A093FA600DAA33C /* RoundedCorner.swift in Sources */,
 				FE25DB442A0002FC002FA30A /* Endpoint+Auth.swift in Sources */,
 				FE25DB2D29FFF665002FA30A /* NetworkError.swift in Sources */,
+				FE42CB7C2A910D8600968C16 /* SocialLoginRes.swift in Sources */,
+				FE42CB6E2A910C6600968C16 /* ChangePwByEmailReq.swift in Sources */,
 				FE36E27B2A90FBAE0099FB56 /* ChangeNicknameData.swift in Sources */,
+				FE42CB5B2A91089100968C16 /* QuestionReq.swift in Sources */,
 				FEB9E5722A09376A00DAA33C /* Spacing.swift in Sources */,
+				FE42CB592A91085700968C16 /* PagedQuestion.swift in Sources */,
+				FE42CB782A910D7200968C16 /* NaverUserData.swift in Sources */,
 				FE36E2722A90FBAE0099FB56 /* PagedScorecard.swift in Sources */,
 				FE3C2A052A0A9F8300978787 /* RegistrationViewModel.swift in Sources */,
 				FE36E2842A90FBAE0099FB56 /* LoginReq.swift in Sources */,
 				FE1D92D9298E14FD009EF316 /* TswUseriOS.xcdatamodeld in Sources */,
 				FE36E2802A90FBAE0099FB56 /* Nasmo.swift in Sources */,
+				FE42CB452A91020D00968C16 /* Faq.swift in Sources */,
 				FE36E27E2A90FBAE0099FB56 /* Shop.swift in Sources */,
 				FE25DB4B2A0011DF002FA30A /* SplashView.swift in Sources */,
 			);
@@ -821,6 +985,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -881,6 +1046,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

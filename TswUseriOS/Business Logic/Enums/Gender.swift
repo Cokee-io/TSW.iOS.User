@@ -8,6 +8,6 @@
 import Foundation
 
 enum Gender: String, Codable {
-    case Woman
-    case Man
+    case Woman = "Woman"
+    case Man = "Man"
 }
